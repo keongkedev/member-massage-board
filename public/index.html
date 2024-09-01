@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>留言板 登入與註冊</title>
+  </head>
+  <body>
+    <form action="/signup" method="post">
+      <h3>註冊帳號</h3>
+      <p>你的稱呼</p>
+      <input type="text" name="name" />
+      <p>電子郵件</p>
+      <input type="email" name="email" />
+      <p>輸入密碼</p>
+      <input type="password" name="password" />
+      <div>
+        <button>點此註冊</button>
+      </div>
+    </form>
+
+    <form action="/signin" method="post">
+      <h3>登入帳號</h3>
+      <p>電子郵件</p>
+      <input type="email" name="email" />
+      <p>輸入密碼</p>
+      <input type="password" name="password" />
+      <div>
+        <button>點此登入</button>
+      </div>
+    </form>
+  </body>
+</html>
